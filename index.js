@@ -1,8 +1,9 @@
 const Sentry = require('@sentry/node');
 
-function init({ dsn, serviceName }) {
+function init({ dsn, serviceName, release }) {
     Sentry.init({
         dsn,
+        ...(release && { release }),
     });
     Sentry.setTag('service', serviceName);
 }
