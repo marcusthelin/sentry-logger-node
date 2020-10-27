@@ -1,6 +1,6 @@
 {
   "name": "@24hr/sentry-logger-node",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,7 @@
   "author": "Marcus Thelin <marcus.thelin@24hr.se>",
   "license": "ISC",
   "dependencies": {
-    "@sentry/node": "^5.26.0"
+    "@sentry/node": "^5.26.0",
+    "chalk": "^4.1.0"
   }
 }
