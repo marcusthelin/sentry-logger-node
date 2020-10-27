@@ -1,6 +1,6 @@
 {
   "name": "@24hr/sentry-logger-node",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,6 @@
   "license": "ISC",
   "dependencies": {
     "@sentry/node": "^5.26.0",
-    "chalk": "^4.1.0"
+    "cli-color": "^2.0.0"
   }
 }
