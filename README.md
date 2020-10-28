@@ -9,7 +9,7 @@ npm install @24hr/sentry-logger-node
 
 Initialize Sentry in your app:
 ```js
-const sentryLogger = require('@24hr/sentry-logger');
+const sentryLogger = require('@24hr/sentry-logger-node');
 
 sentryLogger.init({ dsn: SENTRY_DSN, release: SENTRY_RELEASE, environment: SENTRY_ENVIRONMENT, serviceName: 'my-service' });
 
@@ -79,7 +79,7 @@ I plan to add a LOG_LEVEL env variable feature to exclude unwanted logs, e.g ver
 
 ## How to use (examples)
 ```js
-const { logger } = require('@24hr/sentry-logger');
+const { logger } = require('@24hr/sentry-logger-node');
 
 logger.info('Info text'); // Green color in console
 logger.warning('Warning text'); // Yellow color in console
