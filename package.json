@@ -1,6 +1,6 @@
 {
   "name": "@24hr/sentry-logger-node",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "",
   "main": "index.js",
   "repository": "https://github.com/marcusthelin/sentry-logger-node",
@@ -14,7 +14,7 @@
   "author": "Marcus Thelin <marcus.thelin@24hr.se>",
   "license": "ISC",
   "dependencies": {
-    "@sentry/node": "^5.26.0",
+    "@sentry/node": "5.30.0",
     "cli-color": "^2.0.0",
     "domain": "0.0.1"
   }
